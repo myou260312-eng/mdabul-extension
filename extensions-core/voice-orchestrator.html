@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Orchestrator Engine | My-Expert-Portfolio</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .nav-header {
+            background-color: #161b22;
+            padding: 15px 20px;
+            border-bottom: 1px solid #30363d;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-back { color: #58a6ff; text-decoration: none; font-size: 0.9rem; }
+        .nav-back:hover { text-decoration: underline; }
+        .container { max-width: 850px; margin: 0 auto; padding: 40px 20px; }
+        h1 { font-size: 2rem; color: #58a6ff; margin: 0 0 10px 0; }
+        h2 { font-size: 1.4rem; color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-top: 30px; }
+        p { color: #8b949e; font-size: 1rem; }
+        .status-banner { background-color: #0c2417; border: 1px solid #238636; color: #56d364; padding: 12px 15px; border-radius: 6px; font-size: 0.9rem; margin-bottom: 25px; font-weight: bold; }
+        .engine-card { background: #161b22; padding: 25px; border: 1px solid #30363d; border-radius: 8px; margin-bottom: 20px; }
+        .agent-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 15px; }
+        .agent-pill { background: #0d1117; border: 1px solid #30363d; padding: 15px; border-radius: 6px; }
+        .pulse-indicator { display: inline-block; width: 8px; height: 8px; background-color: #56d364; border-radius: 50%; margin-right: 5px; animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { opacity: 0.4; } 50% { opacity: 1; } 100% { opacity: 0.4; } }
+        .code-inline { font-family: monospace; background-color: #21262d; padding: 2px 6px; border-radius: 4px; color: #ff7b72; }
+    </style>
+</head>
+<body>
+
+    <!-- SECURE TOP NAVIGATION -->
+    <div class="nav-header">
+        <span style="font-weight: bold; color: #8b949e; font-size: 0.85rem; tracking: 0.05em;">SYSTEMS ARCHITECTURE SUB-PAGE</span>
+        <a href="../extensions.html" class="nav-back">&larr; Return to Workspace Dashboard</a>
+    </div>
+
+    <div class="container">
+        <!-- ENGINE HEADER -->
+        <h1>SpaceXAI Realtime Voice WebSockets Engine Layout</h1>
+        <p>Ultra-Low Latency Duplex Audio Stream Orchestration for Autonomous Agents.</p>
+
+        <!-- CURRENT SESSION MONITOR -->
+        <div class="status-banner">
+            <span class="pulse-indicator"></span> VANE-GUARD ORCHESTRATOR STATUS: WebSockets pipeline manifest validated. Scripts assigned via voice_agents.py.
+        </div>
+
+        <!-- STRUCTURAL OBJECTIVE OVERVIEW -->
+        <section>
+            <h2>🎙️ Realtime Voice Pipeline Architecture</h2>
+            <p>This layout models the data-flow gateway between a browser client interface and the remote SpaceXAI real-time stream servers. By establishing persistent, bidirectional WebSockets channels, the infrastructure completely cuts down on voice processing lag paths.</p>
+            
+            <div class="engine-card">
+                <h3 style="margin-top:0; color: #ffffff;">1. Low-Latency Audio Streaming</h3>
+                <p style="margin-bottom:0;">Audio sample payloads are chunked into high-density binary arrays. The client engine processes incoming and outgoing streams using specialized native audio buffer interfaces, running directly over secure network connections to prevent data loss or intercept vulnerabilities.</p>
+            </div>
+        </section>
+
+        <!-- ACTIVE VOICE AGENTS PROFILES -->
+        <section>
+            <h2>🤖 Registered Service Agents</h2>
+            <p>Active pipeline scripts coordinated via the <span class="code-inline">voice_agents.py</span> routing core:</p>
+            
+            <div class="agent-grid">
+                <div class="agent-pill">
+                    <h4 style="margin: 0 0 5px 0; color: #58a6ff;">Vane Enterprise Support Agent</h4>
+                    <p style="margin: 0; font-size: 0.85rem; color: #8b949e;">Handles automated troubleshooting and high-utility onboarding tasks natively.</p>
+                </div>
+                <div class="agent-pill">
+                    <h4 style="margin: 0 0 5px 0; color: #58a6ff;">Vane Enterprise Sales Assistant</h4>
+                    <p style="margin: 0; font-size: 0.85rem; color: #8b949e;">Manages initial client vetting queries and custom licensing pipeline routing.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
