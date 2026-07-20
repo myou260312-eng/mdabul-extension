@@ -65,7 +65,7 @@ As the founder and leader of **Vane Enterprise LLC**, I drive innovation through
   <tr>
     <td width="200" align="center" valign="top">
       <a href="https://credly.com" target="_blank">
-        <img src="My-opswat-introduction-to-critical-infrastructure.png" width="150" alt="OPSWAT ICIP Badge">
+        <img src="opswat-introduction-to-critical-infrastructure-protection-icip.webp" dimension="(245x245)" alt="OPSWAT ICIP Badge">
       </a>
       <br><br>
       <a href="https://credly.com" target="_blank"><strong>Verify Badge</strong></a>
